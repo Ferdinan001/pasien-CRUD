@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="col-4">
-            <h3>Edit Data Pasien</h3>
+            <h3>Edit Data</h3>
             <?php
             include 'koneksi.php';
             $panggil = $koneksi->query("SELECT * FROM pasien where idPasien = '$_GET[edit]'");
